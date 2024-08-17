@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Detalle de Tarea</title>
+</head>
+<body>
+<h1>Detalle de Tarea</h1>
+<p><strong>ID:</strong> <span th:text="${tarea.id}"></span></p>
+<p><strong>Título:</strong> <span th:text="${tarea.titulo}"></span></p>
+<p><strong>Descripción:</strong> <span th:text="${tarea.descripcion}"></span></p>
+<p><strong>Fecha de Creación:</strong> <span th:text="${tarea.fechaCreacion}"></span></p>
+<p><strong>Hora de Creación:</strong> <span th:text="${tarea.horaCreacion}"></span></p>
+<p><strong>Estado:</strong> <span th:text="${tarea.estado}"></span></p>
+<a href="/tareas">Volver a la lista</a>
+</body>
+</html>
